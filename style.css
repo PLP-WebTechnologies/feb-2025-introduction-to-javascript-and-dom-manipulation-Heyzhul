@@ -1,54 +1,15 @@
-/* Styling for the entire page */
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 0;
+    font-family: Arial, sans-serif;
     padding: 20px;
-    background-color: #f4f4f9;
-  }
-  
-  header {
+}
+
+header {
     text-align: center;
-    margin-bottom: 40px;
-  }
-  
-  h1 {
-    color: #333;
-    font-size: 3rem;
-  }
-  
-  h2 {
-    font-size: 2rem;
-    color: #4CAF50;
-  }
-  
-  h3 {
-    color: #333;
-    margin-bottom: 10px;
-  }
-  
-  button {
-    padding: 10px 20px;
-    margin: 15px;
-    font-size: 1.2rem;
-    background-color: #008CBA;
-    color: white;
-    border: none;
-    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px;
+    margin: 10px;
     cursor: pointer;
-  }
-  
-  button:hover {
-    background-color: #005f73;
-  }
-  
-  footer {
-    text-align: center;
-    margin-top: 40px;
-    font-size: 1rem;
-    color: #888;
-  }
-  
-  .highlight {
-    color: #ff6347; /* Tomato color */
-  }
-  
+}

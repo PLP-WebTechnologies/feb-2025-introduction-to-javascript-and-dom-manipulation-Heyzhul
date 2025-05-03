@@ -1,40 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Interactive Web Experience</title>
-  <link rel="stylesheet" href="styles.css"> <!-- Linking the CSS -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Page</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-  <header>
-    <h1>Welcome to Your Interactive Web Experience</h1>
-    <p>Let’s dive into the magic of JavaScript and see how we can dynamically transform the page.</p>
-  </header>
+    <header>
+        <h1>Interactive Web Page</h1>
+    </header>
 
-  <main>
     <section>
-      <h2 id="greeting">The adventure begins!</h2>
-      <p>Explore the power of JavaScript by interacting with the elements on this page.</p>
-      <button id="changeTextBtn">Change the Magic</button>
+        <p id="text">This is some text that will change.</p>
+        <button id="changeTextBtn">Change Text</button>
     </section>
 
     <section>
-      <h3>Feel the Change</h3>
-      <button id="changeStyleBtn">Make it Pop!</button>
+        <button id="changeStyleBtn">Change Background Color</button>
     </section>
 
     <section>
-      <h3>Build Something New</h3>
-      <button id="addElementBtn">Create a New Element</button>
+        <button id="addElementBtn">Add New Element</button>
+        <button id="removeElementBtn">Remove Element</button>
+        <div id="elementsContainer"></div>
     </section>
-  </main>
 
-  <footer>
-    <p>Created by <span class="highlight">You</span>. All rights reserved, 2025.</p>
-  </footer>
+    <footer>
+        <p>&copy; 2025 Interactive Web Page</p>
+    </footer>
 
-  <script src="script.js"></script> <!-- Linking the JavaScript -->
+    <script src="script.js"></script>
 </body>
 </html>
